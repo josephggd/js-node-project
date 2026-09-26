@@ -1,0 +1,42 @@
+.html, body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+  background-color: blanchedalmond;
+  color:antiquewhite;
+}
+
+.dark-mode {
+  background-color: darkslategray;
+  color: black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left {
+  padding: 30px;
+}
+
+.right {
+  padding: 60px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
