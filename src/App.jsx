@@ -13,9 +13,6 @@ function App() {
           <img src={dark ? blueLogo : yellowLogo} className='logo'></img>
         </div>
       </div>
-      <div>
-        {/* use the whole page with the exception of the footer */}
-      </div>
     </div>
   )
 }
